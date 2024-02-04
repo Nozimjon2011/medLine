@@ -1,0 +1,148 @@
+/* imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+/* super */
+
+::selection {
+    color: blueviolet;
+    background-color: white;
+}
+
+/* navbar */
+
+.navbar-nav {
+    width: 100%;
+    /* display: flex; */
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.navbar {
+    background-color: #4b5554 !important;
+}
+.wh {
+    color: white !important;
+    transition: 0.3s        ;
+}
+.dropdown-menu {
+    background-color: #4b5554 !important;
+}
+.dropdown-item:hover {
+    background-color: transparent;
+}
+.active {
+    color: gold !important;
+    transition: 0.3s;
+}
+.wh:hover {
+    color: gold !important;
+}
+.med {
+    color: chartreuse;
+}
+.line {
+    color: cornflowerblue;
+}
+.chr {
+    color: red;
+    font-size: 25px;
+}
+
+/* carusel */
+
+.img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img1 {
+    background-image: url(/img/1.png);
+
+}
+.img2 {
+    background-image: url(/img/2.png);
+}
+.img3 {
+    background-image: url(/img/3.png);
+}
+
+/* main */
+
+.h {
+    margin-top: 10px;
+    background-color: rgb(255, 241, 241);
+    border-radius: 10px;
+    padding: 10px;
+}
+.reyt {
+    width: 100%;
+    border: 2px solid crimson;
+    border-radius: 4px;
+}
+.sto {
+    height: 90px;
+    border: 2px solid crimson;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+.ph {
+    border-radius: 50%;
+    border: 2px solid crimson;
+    width: 85px;
+    height: 85px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.photo1 {
+    background-image: url(/img/1-doctor.png);
+}
+.photo2 {
+    background-image: url(/img/2-doctor.png);
+}
+.photo3 {
+    background-image: url(/img/3-doctor.jpg);
+}
+.min {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+.easy {
+    color: orange;
+}
+.study {
+    color: cornflowerblue;
+}
+
+/* footer */
+
+footer {
+    margin-top: 100px;
+}
+.aic {
+    align-items: center;
+}
+footer a {
+    color: blueviolet;
+    text-decoration: none;
+    transition: 0.5s;
+}
+footer a:hover {
+    color: aqua;
+}
+footer li {
+    overflow: hidden;
+}
